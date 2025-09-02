@@ -13,6 +13,7 @@ This script automates the process of creating a new SQL Server login and databas
 sqlcmd tool installed. Refer to this link for more details.
 openssl installed for password generation.
 Environment variables MYSQL_HOST, MYSQL_URL, MYSQL_USER, SECRET must be set in the profile via the Britive UI. Britive rEsource management configuration must include these variables to successfully run this routine.
+
 MYSQL_HOST: The name of the SQL Server.
 MYSQL_URL:Connection string of the SQL Server.
 MYSQL_USER: The administrator username with sufficient privileges to create logins and users.
