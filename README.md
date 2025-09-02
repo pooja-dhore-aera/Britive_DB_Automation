@@ -15,9 +15,13 @@ openssl installed for password generation.
 Environment variables MYSQL_HOST, MYSQL_URL, MYSQL_USER, SECRET must be set in the profile via the Britive UI. Britive rEsource management configuration must include these variables to successfully run this routine.
 
 MYSQL_HOST: The name of the SQL Server.
+
 MYSQL_URL:Connection string of the SQL Server.
+
 MYSQL_USER: The administrator username with sufficient privileges to create logins and users.
+
 SECRET: The password for the administrator.
+
 Script Functionality
 
 **Checkout Script checkout_script.sh**
